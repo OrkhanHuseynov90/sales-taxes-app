@@ -1,0 +1,21 @@
+.ng-invalid.ng-touched:not(form) {
+  border: 2px solid red;
+}
+
+.btn:hover,
+.h-shadow:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.h-shadow:hover {
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-color: white;
+}
+
+.bg-paper {
+  background-color: linen;
+  min-height: 7rem;
+  max-height: 7rem;
+  overflow-y: auto;
+}
